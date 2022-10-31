@@ -18,7 +18,7 @@ solveRPN = head . foldl foldingFunction [] . words
         foldingFunction (x:xs) "condnumero" = (condnumero x):xs
         foldingFunction xs "sum"= [sum xs]
         foldingFunction xs "product"= [product xs]
-        --foldingFunction xs "promedio"= (sum xs / fromIntegral (length xs)): xs
+        foldingFunction xs "promedio"= (sum xs / fromIntegral (length xs)): xs
         foldingFunction xs numberString= read numberString:xs
 
 main :: IO()
