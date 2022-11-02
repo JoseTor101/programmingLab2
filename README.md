@@ -1,4 +1,4 @@
-# Programming lab 1
+# Programming lab 2
 
 ### Integrantes:
 - Manuela Castaño Franco
